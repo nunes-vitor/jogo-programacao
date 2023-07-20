@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&family=Tektur&display=swap');
+
+body {
+  background-image: url('imagens/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  line-height: 1.6;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 500px;
+  padding: 70px;
+  background-color: #0000006c;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Tektur', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+p {
+  margin: 10px 0px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1.5);
+}
+
+#technology-list {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #00356d;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 180px;
+  height: 60px;
+  font-family: 'Roboto Mono', monospace;
+  
+}
+
+button:hover {
+  background-color: #007bff;
+  transform: scale(1.2);
+  transition: 600ms;
+}
+
+input[type="text"] {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#technology-list li {
+  margin-bottom: 5px;
+}
+
+#game-over-section {
+  text-align: center;
+}
+
+#game-over-section h2 {
+  color: #007bff;
+}
+
+.hidden {
+  display: none;
+}
+
+.swal-overlay--show-modal .swal-modal {
+  opacity: 1;
+  pointer-events: auto;
+  box-sizing: border-box;
+  -webkit-animation: showSweetAlert .3s;
+  animation: showSweetAlert .3s;
+  will-change: transform;
+  width: 700px;
+  padding: 20px;
+}
+
+.swal-button {
+  background-color: #00356d;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 24px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.swal-footer {
+  text-align: center;
+  padding-top: 13px;
+  margin-top: 13px;
+  padding: 13px 16px;
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

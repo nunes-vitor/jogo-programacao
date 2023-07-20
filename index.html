@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Programação</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="imagens/icon.png">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Jogo de Programação!</h1>
+    <p>Escolha uma área para começar:</p>
+    <button id="frontend-btn">Front-End</button>
+    <button id="backend-btn">Back-End</button>
+
+    <div id="frontend-section" class="hidden">
+      <p>Ótimo! Agora escolha uma tecnologia para aprender:</p>
+      <button id="react-btn">React</button>
+      <button id="vue-btn">Vue</button>
+    </div>
+
+    <div id="backend-section" class="hidden">
+      <p>Ótimo! Agora escolha uma tecnologia para aprender:</p>
+      <button id="csharp-btn">C#</button>
+      <button id="java-btn">Java</button>
+    </div>
+
+    <div id="choices-section" class="hidden">
+      <p>Agora você pode escolher entre se especializar ou se tornar Fullstack:</p>
+      <button id="specialize-btn">Especializar</button>
+      <button id="fullstack-btn">Fullstack</button>
+    </div>
+
+    <div id="technologies-section" class="hidden">
+      <p>Digite as tecnologias que você gostaria de aprender ou se especializar:</p>
+      <input type="text" id="technology-input">
+      <button id="add-btn">Adicionar</button>
+      <p id="technology-list"></p>
+      <button id="finish-btn">Finalizar</button>
+    </div>
+
+    <div id="game-over-section" class="hidden">
+      <h2>Parabéns! Você concluiu o jogo.</h2>
+      <p>Aqui estão as tecnologias que você escolheu aprender ou se especializar:</p>
+      <ul id="final-technologies"></ul>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
